@@ -187,7 +187,7 @@ footer a.pag{
 }
 .img1{
     background-color: red;
-    background-image: url(/photos/img1.jpeg);
+    background-image: url(../photos/img1.jpeg);
     background-position: center;
     background-size: cover;
 }
