@@ -1,14 +1,19 @@
 header a{ 
-    background-color: white;
+    background-color: orange;
     width: 100px;
     height: 100px;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
 }
+.navegador {
+    font-size: 25px;
+    padding: 5px;
+    font-style: black;
+}
 h1{
-    background-color: white;
-    color: brown;
+    background-color: orange;
+    color: black;
     text-align: center;
     width: 100%;
     height: auto;;
@@ -17,8 +22,8 @@ h1{
     text-transform: uppercase;
 }
 h2{
-    background-color: white;
-    color: brown;
+    background-color: orange;
+    color: black;
     text-align: center;
     width: 100%;
     height: auto;;
@@ -28,9 +33,9 @@ h2{
 }
 
 body{
-    background-color: orange;
+    background-color: black;
     text-align: center;
-    color: black;
+    color: orange;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 0 1.5em;
 }
@@ -41,126 +46,37 @@ body{
     margin-right: auto;
     padding: 1.5em;
 }
-.roll-in-left{
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-}
-.roll-in-left ul{
-    display: flex;
-    padding: 0;
-    width: 50%; 
-}
-.roll-in-left li {
-	width: 100%;
-	list-style: none;
-}
-.roll-in-left img {
-	width: 100%;
-}
-.roll-in-left li {
-	-webkit-animation: roll-in-left 0.6s ease-out both;
-	animation: roll-in-left 0.6s ease-out both;
-}
-@-webkit-keyframes roll-in-left {
-    0% {
-    -webkit-transform: translateX(-800px) rotate(-540deg);
-    transform: translateX(-800px) rotate(-540deg);
-    opacity: 0;
-    }
-    100% {
-    -webkit-transform: translateX(0) rotate(0deg);
-    transform: translateX(0) rotate(0deg);
-    opacity: 1;
-    }
-}
-@keyframes roll-in-left {
-    0% {
-    -webkit-transform: translateX(-800px) rotate(-540deg);
-    transform: translateX(-800px) rotate(-540deg);
-    opacity: 0;
-    }
-    100% {
-    -webkit-transform: translateX(0) rotate(0deg);
-    transform: translateX(0) rotate(0deg);
-    opacity: 1;
-    }
-}
-ul.desplegable *{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+.dropdown-menu {
+    background-color: orange;
+    text-transform: uppercase;
+    color: black;
+} 
+
+.dropdown-toggle {
+    background-color: orange;
+    color: black;
     text-transform: uppercase;
 }
-ul.desplegable{
-    margin: 10px auto;
-    padding: 0;
-    list-style: none;
-    width: 10%;
-    font-size: 18px;
-}
-ul.desplegable li{
-    list-style: none;
-}
-ul.desplegable li a{
-    display: block;
-    padding: 10px 10px 10px 10px;
-    background: brown;
-    color: black;
-    border-bottom: 1px solid black;
-    border-top: 1px solid gray;
-    text-decoration: none;
-    box-sizing: border-box
-}
-ul.desplegable li ul{
-    max-height: 0;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    transition: .3s all ease-in;
-}
-ul.desplegable li li a{
-    padding: 10px 10px 10px 10px;
-    background: coral;
-    color: black;
-    font-size: 16px;
-    border: 0;
-    border-bottom: 1px solid wheat;
-    box-sizing: border-box;
-}
-ul.desplegable li li:last-child a{
-    border-bottom: 0;
-}
-ul.desplegable li:hover ul{
-    max-height: 300px;
-    transition: .3s all ease-in;
-}
-ul.desplegable li a:hover{
-    background: gray;
-    color: white;
-}
+
 ul label{
     text-transform: capitalize;
 }
 ul label.input{
     text-transform: capitalize;
 }
-footer{
+footer {
     width: 100%;
-    height: 80px;
-    background-color: white;
+    background-color: orange;
     color: black;
     text-align: center; 
     font-weight: bold;
     border-radius: 10px;
 }
-footer a{
+footer p{
     text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-footer a.pag{
-    text-transform: capitalize;
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -377,7 +293,6 @@ footer a.pag{
         text-align: left;
     }
 
-
 .titulo {
         -webkit-animation: roll-in-left 0.6s ease-out both;
         animation: roll-in-left 0.6s ease-out both;
@@ -395,4 +310,11 @@ footer a.pag{
         opacity: 1;
         }
     }
+}
+.carousel-item {
+    max-height: 400px;
+    max-width: 400px;
+}
+.carousel-inner {
+    justify-items: center;
 }
