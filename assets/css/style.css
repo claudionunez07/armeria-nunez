@@ -318,3 +318,13 @@ footer p{
 .carousel-inner {
     justify-items: center;
 }
+.card {
+    margin-left: 200px;
+}
+.card-text {
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
