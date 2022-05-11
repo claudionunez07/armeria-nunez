@@ -57,26 +57,6 @@ body{
     color: black;
     text-transform: uppercase;
 }
-
-ul label{
-    text-transform: capitalize;
-}
-ul label.input{
-    text-transform: capitalize;
-}
-footer {
-    width: 100%;
-    background-color: orange;
-    color: black;
-    text-align: center; 
-    font-weight: bold;
-    border-radius: 10px;
-}
-footer p{
-    text-transform: uppercase;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -323,11 +303,32 @@ footer p{
 }
 .card {
     margin-left: 200px;
-}
-.card-text {
+
+    .card-text {
     text-transform: uppercase;
     color: black;
     margin-bottom: 10px;
     background-color: orange;
     border-radius: 10px;
+}
+}
+footer {
+    width: 100%;
+    background-color: orange;
+    color: black;
+    text-align: center; 
+    font-weight: bold;
+    border-radius: 10px;
+
+    p{
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+ul label{
+    text-transform: capitalize;
+
+    .input{
+    text-transform: capitalize;
+}
 }
