@@ -14,7 +14,7 @@
 }
 .h2 {
     @include propiedadesPrincipales(100%, auto, 10px);
-    background-color: orange;
+    background-color: $color-primario;
     color: map-get($h , color-letra);
     text-align: map-get($h , ubicacion-texto);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
