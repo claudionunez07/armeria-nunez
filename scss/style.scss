@@ -1,3 +1,7 @@
+@import "_variables";
+@import "_titulos";
+@import "_mixins.scss";
+
 header a{ 
     background-color: orange;
     width: 100px;
@@ -10,26 +14,6 @@ header a{
     font-size: 25px;
     padding: 5px;
     font-style: black;
-}
-h1{
-    background-color: orange;
-    color: black;
-    text-align: center;
-    width: 100%;
-    height: auto;;
-    border-radius: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform: uppercase;
-}
-h2{
-    background-color: orange;
-    color: black;
-    text-align: center;
-    width: 100%;
-    height: auto;;
-    border-radius: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform: uppercase;
 }
 
 body{

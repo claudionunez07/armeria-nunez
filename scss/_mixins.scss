@@ -1,0 +1,5 @@
+@mixin propiedadesPrincipales ($ancho,$alto,$bordes){
+    width: $ancho;
+    height: $alto;
+    border-radius: $bordes;
+}

@@ -1,0 +1,27 @@
+
+@mixin propiedadesPrincipales ($ancho,$alto,$bordes){
+    width: $ancho;
+    height: $alto;
+    border-radius: $bordes;
+}
+.h1 {
+    @include propiedadesPrincipales(100%, auto, 10px);
+    background-color: map-get($h , color-fondo);
+    color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+.h2 {
+    @include propiedadesPrincipales(100%, auto, 10px);
+    background-color: orange;
+    color: map-get($h , color-letra);
+    text-align: map-get($h , ubicacion-texto);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+.h2-primario {
+    @extend .h2;
+    background-color: $color-primario;
+    text-transform: initial;
+}
